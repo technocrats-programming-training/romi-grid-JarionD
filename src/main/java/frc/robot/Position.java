@@ -1,4 +1,4 @@
-package frc.robot;
+ package frc.robot;
 
 import static lib.Romi.driveDistance;
 import static lib.Romi.turnDegrees;
@@ -16,9 +16,7 @@ direction South = new direction();
 
 
     public void driveUp() throws InterruptedException {
-  y += 10;
-  x = 0;
-  direction.equals(East);  
+    
    
     }
 
