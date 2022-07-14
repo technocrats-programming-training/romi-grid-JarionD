@@ -37,7 +37,7 @@ y -= 10;
       driveDistance(0);
     }
 y += 0;   
-x = 0;
+x += 10;
     }
 
     public void driveLeft() throws InterruptedException {
@@ -48,7 +48,7 @@ x = 0;
       driveDistance(0);
     }
 y += 0;   
-x = 0;
+x -= 10;
     }
 
     public void returnToHome() {
@@ -56,7 +56,7 @@ x = 0;
     }
 
     public String toString() {
-        return "(" + x + " " + y + ")";
+        return "(" + x + ", " + y + ")";
 
     }
 }
